@@ -1,0 +1,411 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span {
+  color: #ffa841;
+}
+
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Start Nav */
+
+.nav .top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+.nav {
+  position: relative;
+  width: 100%;
+  height: 126px;
+}
+.fixed {
+  position: fixed;
+  z-index: 1;
+  background-color: #1a2856;
+  width: 100%;
+  height: 126px;
+}
+.nav .top a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav .bottom ul li:hover {
+  color: #ffa841;
+  cursor: pointer;
+}
+.nav .top a span {
+  color: #ffa841;
+}
+
+.nav .top .search {
+  background-color: white;
+  padding: 10px 5px;
+  width: 500px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav .top .search i {
+  margin-right: 5px;
+}
+
+.top .search input {
+  outline: none;
+  border: none;
+}
+.nav .top .icon {
+  color: white;
+}
+
+.nav .bottom ul {
+  display: flex;
+  padding: 15px 0;
+}
+.nav .bottom ul li {
+  list-style: none;
+  color: white;
+  margin-right: 30px;
+}
+/* End Nav */
+/* Start Section */
+.section {
+  background-color: #f0eded;
+}
+
+.section .container .me {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.section .categories {
+  width: 22%;
+  height: 400px;
+  background-color: white;
+  border-radius: 15px;
+}
+.section .categories ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.section .categories ul li i {
+  margin: 0 15px;
+}
+.section .categories ul li {
+  list-style: none;
+  padding: 12px 0;
+  justify-content: center;
+}
+.section .categories ul li:not(:last-child) {
+  border-bottom: solid 1px #eee;
+}
+.section .categories ul li:first-child {
+  background-color: #ffa841;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.section .landing {
+  border-radius: 15px;
+  width: 75%;
+  height: 400px;
+  background-image: url(/image/ee.jpg);
+  background-size: cover;
+  position: relative;
+}
+.section .landing .text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 100px;
+}
+.section .landing .text h4 {
+  font-size: 20px;
+  color: #ffa841;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.section .landing .text h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 40px;
+}
+.section .landing .text p {
+  color: rgb(235, 228, 228);
+  margin: 10px 0;
+}
+.section .landing .text .btn {
+  padding: 15px 30px;
+  text-transform: uppercase;
+  background-color: #ffa841;
+  border: none;
+  margin-top: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.section .show .t-shirt {
+  width: 22%;
+  height: 400px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section .show .t-shirt .head {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: solid 1px #dbd8d8;
+}
+.section .show .t-shirt .head span {
+  color: #ffa841;
+}
+.section .show .t-shirt .img {
+  width: 60%;
+  margin: 0 auto;
+}
+.section .show .t-shirt .img img {
+  width: 100%;
+}
+
+.section .show .t-shirt .text {
+  margin: 5px 10px;
+}
+.section .show .t-shirt p i {
+  color: yellow;
+  padding-right: 5px;
+}
+.section .show .t-shirt h3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.section .show .t-shirt .text h3:first-child {
+  border-top: 1px solid #eee;
+}
+.section .show {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section .show .show-1 {
+  width: 75%;
+  background-color: white;
+  border-radius: 15px;
+  height: 400px;
+}
+
+.section .show .t-shirts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section .show .show-1 .head {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: solid 1px #c7c0c0;
+}
+.section .show .show-1 .t-shirts .brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section .show .show-1 .t-shirts .brand .img {
+  margin: auto;
+  width: 150px;
+  height: 230px;
+}
+.section .show .show-1 .brand .img img {
+  width: 100%;
+}
+.section .show .show-1 .brand .text {
+  margin: 15px 10px 0;
+}
+
+.section .show .show-1 .brand .text h3:not(:last-child) {
+  border-top: 2px solid #eee;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.section .show .show-1 .brand .text p {
+  color: yellow;
+}
+.section .show .show-1 .brand .text .lorem {
+  color: #c7c4c4;
+}
+.section .show .show-1 .brand .text h3:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section .offer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.section .offer .offer_1 {
+  width: 22%;
+  height: fit-content;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section .offer .offer_1 .show-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section .offer .offer_1 .show-1 .brand {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-top: 1px solid #eee;
+  padding: 10px;
+}
+.section .offer .offer_1 .show-1 .head {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.section .offer .offer_1 .show-1 .head h3 {
+  font-size: 16px;
+}
+.section .offer .offer_1 .show-1 .brand p {
+  color: yellow;
+  padding: 10px 0;
+}
+.section .offer .offer_1 .show-1 .brand h3:last-child {
+  color: #cc5a84;
+}
+.section .offer .offer_1 .show-1 .brand .text {
+  margin: 25px 15px;
+}
+
+.section .offer .offer_1 .show-1 .brand .img {
+  width: 80px;
+}
+.section .offer .offer_1 .show-1 .brand img {
+  width: 100%;
+  margin: 20px 0 0;
+}
+
+.section .offer .offer_2 {
+  width: 75%;
+  background-color: #eee;
+  border-radius: 15px;
+}
+
+.section .offer .offer_2 .landing {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url(/image/wwwwwwwwwwwww.jpg);
+  margin-bottom: 30px;
+}
+.section .offer .offer_2 .landing .text {
+  text-align: center;
+  margin-left: 140px;
+  width: 400px;
+}
+.section .offer .offer_2 .show-1 .t-shirts {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 15px;
+}
+.section .offer .offer_2 .t-shirts .brand .img {
+  margin: auto;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.section .offer .offer_2 .t-shirts .brand img {
+  width: 100%;
+}
+.section .offer .offer_2 .t-shirts .brand .text {
+  padding: 20px 20px;
+}
+.section .offer .offer_2 .t-shirts .brand .text p {
+  color: #b3a9a9;
+}
+.section .offer .offer_2 .t-shirts .brand .text h3:first-child {
+  border-top: 2px solid #eee;
+  margin: 5px;
+}
+.section .offer .offer_2 .t-shirts .brand .text i {
+  color: yellow;
+  padding: 5px 0;
+}
+.section .offer .offer_2 .t-shirts .brand .text h3:last-child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+/* End Section */
+/* Start Footer */
+.footer {
+  background-color: #1a2856;
+}
+.footer .top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0;
+}
+
+.footer .top .sen {
+  width: 300px;
+  height: 200px;
+  color: white;
+}
+
+.footer .top .icon I {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.footer .top .sen h3 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+.footer .top .sen h3 span {
+  color: #ffa841;
+}
+.footer .top .sen p {
+  margin-top: 20px;
+  color: #b8aeae;
+}
+.footer .bottom {
+  text-align: center;
+  color: white;
+  padding: 15px 0;
+  border-top: 2px solid #eee;
+}
+.footer .bottom span {
+  color: #ffa841;
+}
+/* End Footer */
